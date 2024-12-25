@@ -1,6 +1,12 @@
 @Library('roboshop') _
 
-docker(
+// docker(
+//     COMPONENT                 : 'frontend',
+//     LABEL                     : 'WORKSTATION'
+// )
+
+
+nginx(
     COMPONENT                 : 'frontend',
     LABEL                     : 'WORKSTATION'
 )
