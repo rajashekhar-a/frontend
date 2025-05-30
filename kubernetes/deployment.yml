@@ -12,7 +12,7 @@ spec:
   template:
     metadata:
       labels:
-        tier: catalogue
+        tier: frontend
     spec:
       containers:
         - name: cart
