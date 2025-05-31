@@ -15,5 +15,5 @@ spec:
         tier: frontend
     spec:
       containers:
-        - name: cart
+        - name: frontend
           image: 863518461004.dkr.ecr.us-east-1.amazonaws.com/frontend:latest
